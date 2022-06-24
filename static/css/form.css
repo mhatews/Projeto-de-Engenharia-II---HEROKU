@@ -1,0 +1,75 @@
+@import url(style.css);
+
+.modal-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.pop-up {
+    position: fixed;
+    top: 0;
+    padding-top: 7%;
+    right: 100;
+    display: none;
+    z-index: 2;
+    min-width: 100vw;
+    min-height: 100vh;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+
+form > h1 {
+    color: whitesmoke;
+}
+
+input, select, textarea {
+    text-decoration: none;
+    outline: none;
+    border: none;
+    display: inline-block;
+    width: 80%;
+    padding: 10px 12px;
+    border-radius: 7px;
+    margin: 10px auto;
+    align-items: center;
+}
+
+input:hover {
+    outline: auto;
+}
+
+#close-btn {
+    color: white;
+    float: right;
+    font-size: large;
+}
+
+#close-btn:hover {
+    cur: pointer;
+    color: red;
+}
+
+.submit-btn {
+    padding: 15px 18px;
+    margin: 10px auto;
+    border-radius: 7px;
+    border: none;
+    transition: 0.7s;
+    background-color: var(--cards-sec);
+}
+
+.submit-btn:hover {
+    cur: pointer;
+    opacity: 0.6;
+    box-shadow: 2px 6px 0 rgba(0,0,0,0.24);
+}
+
+#task-link-btn {
+    float: right;
+    text-decoration: none;
+    font-size: 20px;
+}
